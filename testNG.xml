@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sample Suite">
+
+    <test name="home">
+        <classes>
+            <class name="NavBar"/>
+            <class name="Footer"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="famcrePage" >
+        <classes>
+            <class name="FamcarePage"/>
+        </classes>
+    </test>
+    <test name="specialists" >
+        <classes>
+            <class name="Specialists"/>
+        </classes>
+    </test>
+    <test name="joinAsSpecialist" >
+        <classes>
+            <class name="JoinAsSpecialist"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
